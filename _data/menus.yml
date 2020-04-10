@@ -4,22 +4,4 @@ header:
     link: '/home'
 
 
-  - name: 'about'
-    title: 'about'
-    link: '#'
-
-
-  - name: 'projects'
-    title: 'Projects'
-    link: '#'
-
-
-  - name: 'news'
-    title: 'news'
-    link: '#'
-
-
-  - name: 'involced'
-    title: 'involved'
-    link: '#'
 
