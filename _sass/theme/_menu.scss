@@ -281,6 +281,11 @@ a.activeMenu {
     cursor: pointer;
 }
 
+.parent-active #mobile-nav-toggle i {
+    color: #fff !important;
+    font-weight: 900;
+}
+
 #mobile-nav-toggle i {
     color: $black;
     font-weight: 900;
