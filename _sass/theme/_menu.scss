@@ -369,7 +369,7 @@ a.activeMenu {
 /* Mobile Nav body classes */
 
 body.mobile-nav-active {
-    overflow: visible;
+    overflow: visible !important;
 }
 
 body.mobile-nav-active #mobile-nav {

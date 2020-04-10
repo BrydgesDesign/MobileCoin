@@ -353,7 +353,7 @@
 
 /* Mobile Nav body classes */
 body.mobile-nav-active {
-  overflow: hidden;
+  overflow: visible !important;
 }
 
 body.mobile-nav-active #mobile-nav {
