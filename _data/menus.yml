@@ -1,7 +1,7 @@
 header:
   - name: 'home'
     title: 'home'
-    link: '#'
+    link: 'https://brydgesdesign.github.io/MobileCoin/'
 
 header:
   - name: 'about'
