@@ -26,9 +26,6 @@
 }
 
 @media(max-width: 767px) {
-	.parent-active .hero-section {
-		padding: 0;
-	}
 	.parent-active .content-wrap h1 {
 		margin-bottom: 20px;
 		margin-top: -120px;
@@ -37,7 +34,7 @@
 
 @media(max-width: 480px) {
 	.parent-active .hero-section {
-		padding: 0;
+		padding: 0 !important;
 	}
 	.parent-active .content-wrap h1 {
 		margin-bottom: 20px;
