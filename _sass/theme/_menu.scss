@@ -7,6 +7,18 @@
         background: $white;
     }
 }
+
+.pages .nav-menu a {
+    margin-right: 10px;
+    padding: 0;
+    text-decoration: none;
+    color: #111 !important;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: none;
+    outline: none;
+}
+
 .version-blog {
     #header7{
         background: $white;
