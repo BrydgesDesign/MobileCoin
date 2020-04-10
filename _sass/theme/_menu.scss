@@ -269,12 +269,12 @@ a.activeMenu {
 
 #mobile-nav-toggle {
     position: fixed;
-    right: 15px;
+    right: 18px;
     z-index: 999;
-    top: 18px;
+    top: 26px;
     border: 0;
     background: none;
-    font-size: 24px;
+    font-size: 28px;
     display: none;
     @include transition();
     outline: none;
