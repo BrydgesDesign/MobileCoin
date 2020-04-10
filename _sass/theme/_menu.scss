@@ -33,6 +33,9 @@ a.activeMenu {
             color: $white!important;
         }
     }
+    .nav-menu>a {
+        color: $white;
+    }
 }
 
 #header.header-scrolled {
