@@ -25,6 +25,10 @@
             }
             p {
                 color: $white;
+				font-size: 20px !important;
+				padding: 12px 0px 15px !important;
+				max-width: 100% !important;
+				font-weight: 300 !important;
             }
             @media(max-width:767px) {
                 margin-bottom: 50px;
