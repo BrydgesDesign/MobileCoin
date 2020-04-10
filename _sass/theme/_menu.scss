@@ -83,6 +83,16 @@ a.activeMenu {
 }
 
 @media (max-width: 768px) {
+	#header {
+		#logo {
+			.logo-1 {
+				width: 100%;
+			}
+			.logo-2 {
+				width: 100%;
+			}
+		}
+	}
 	a.activeMenu {
 		border-bottom: 0 !important;
 		padding-bottom: 0 !important;
