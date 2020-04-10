@@ -11,14 +11,17 @@
 
 #header2 {
   padding: 14px 0px;
-  padding-left:2%;
-  padding-right:2%;
+  padding-left:3%;
+  padding-right:3%;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+   .nav-menu > a {
+    color: $white !important;
+  } 
 }
 
 
@@ -35,7 +38,7 @@
     }
   }
   .nav-menu > a {
-    color:$black!important;
+    color: $black !important;
   }
 }
 
