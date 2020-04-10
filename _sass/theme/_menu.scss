@@ -83,6 +83,10 @@ a.activeMenu {
 }
 
 @media (max-width: 768px) {
+	a.activeMenu {
+		border-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	}
     #header #logo h1 {
         font-size: 28px;
     }
