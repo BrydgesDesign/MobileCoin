@@ -1,7 +1,11 @@
 header:
   - name: 'home'
     title: 'home'
-    link: '/home'
+    link: '#'
 
+header:
+  - name: 'about'
+    title: 'about'
+    link: '#'
 
 
