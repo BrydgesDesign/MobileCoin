@@ -12,6 +12,13 @@
     display: block;
 }
 
+@media(max-width:767px) {
+	.parent-active .row {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+}
+
 .version1 {
     .hero-section {
         background: url(../img/hero/hero-bg.png) no-repeat left center/cover;
@@ -44,7 +51,7 @@
             }
 			.content-wrap h1 {
 				margin-bottom: 20px;
-			}			
+			}		
         }
     }
 }
