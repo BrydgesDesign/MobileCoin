@@ -17,6 +17,9 @@
 		margin-right: 0px !important;
 		margin-left: 0px !important;
 	}
+	.parent-active .content-wrap h1 {
+		margin-bottom: 20px;
+	}	
 }
 
 .version1 {
@@ -48,10 +51,7 @@
             }
             @media(max-width:767px) {
                 margin-bottom: 50px;
-            }
-			.content-wrap h1 {
-				margin-bottom: 20px;
-			}		
+            }		
         }
     }
 }
