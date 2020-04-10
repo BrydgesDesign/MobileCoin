@@ -1,25 +1,25 @@
 header:
   - name: 'home'
-    title: 'Home'
-    link: '/'
+    title: 'home'
+    link: '/home'
 
 
   - name: 'about'
     title: 'about'
-    link: '/about'
+    link: '#'
 
 
-  - name: 'Projects'
-    title: 'projects'
-    link: '/pricing'
+  - name: 'projects'
+    title: 'Projects'
+    link: '#'
 
 
-  - name: 'blog'
-    title: 'blog'
-    link: '/blog'
+  - name: 'news'
+    title: 'news'
+    link: '#'
 
 
-  - name: 'contact'
-    title: 'contact'
-    link: '/contact'
+  - name: 'involced'
+    title: 'involved'
+    link: '#'
 
