@@ -15,7 +15,7 @@
 
 a.activeMenu {
     border-bottom: 3px solid #275CDC;
-    padding-bottom: 7px !important;
+    padding-bottom: 7px;
 }
 
 #header {
@@ -94,8 +94,8 @@ a.activeMenu {
 		}
 	}
 	a.activeMenu {
-		border-bottom: 0 !important;
-		padding-bottom: 0 !important;
+		border-bottom: 0;
+		padding-bottom: inherit;
 	}
     #header #logo h1 {
         font-size: 28px;
