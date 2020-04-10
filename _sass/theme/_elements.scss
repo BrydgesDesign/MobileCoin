@@ -2,6 +2,13 @@
 # Elements 
 --------------------------------------------------------------*/
 
+img.partnerLogos {
+    padding-right: 50px;
+}
+a.partnerLink:hover {
+    opacity: 0.7;
+}
+
 .section-gap {
     padding: 120px 0;
     @media(max-width: 991px) {
