@@ -2,6 +2,38 @@
 # Elements 
 --------------------------------------------------------------*/
 
+@media(max-width: 1024px) {
+	a.privacyLink {
+		color: #fff;
+		font-weight: 400;
+		letter-spacing: 0.3px;
+		display: block;
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	p.copyrightArea {
+		color: #fff;
+		font-weight: 400;
+		letter-spacing: 0.3px;
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.col-lg-6.lowerRowRight {
+		margin-top: 60px;
+	}	
+}
+
+@media(max-width: 480px) {
+	.parent-active .hero-section {
+		padding: 0;
+	}
+	.parent-active .content-wrap h1 {
+		margin-bottom: 20px;
+		margin-top: -80px;
+	}	
+}
 
 .header-scrolled .nav-menu a {
     color: #111;
