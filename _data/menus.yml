@@ -6,6 +6,6 @@ header:
 header:
   - name: 'about'
     title: 'about'
-    link: '#'
+    link: '/about'
 
 
