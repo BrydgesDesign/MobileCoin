@@ -6,7 +6,7 @@
 	
 		<ul class="nav-menu">
 			<li><a href="/" class="{% if page.path == 'index.html' %}activeLink{% endif %}">Home</a></li>
-			<li><a href="/about" class="{% if page.path == 'about.html' %}activeLink{% endif %}">About</a></li>			
+			<li><a href="{{ 'about' | relative_url }}" class="{% if page.path == 'about.html' %}activeLink{% endif %}">About</a></li>			
         </ul>
 		
     </nav>
