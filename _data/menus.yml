@@ -1,11 +1,14 @@
-header:
-  - name: 'home'
-    title: 'home'
-    link: ''
+- text: Home
+  url: /index/
+  
+- text: About
+  url: /about/  
+  
+- text: Projects
+  url: /projects/
 
-header:
-  - name: 'about'
-    title: 'about'
-    link: '/about'
+- text: News
+  url: /news/
 
-
+- text: Get Involved
+  url: /get-involved/  

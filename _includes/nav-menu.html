@@ -3,26 +3,13 @@
     
     <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
+		
 		<ul class="nav-menu">
-            <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
-                <a href="{{ 'home' | relative_url }}">Home</a>
+		{% for nav in site.data.navigation %}
+            <li{% if navigation.url == page.url %} class="menu-active"{% endif %}>
+                <a href="{{ navigation.url }}">{{ navigation.text }}</a>
             </li>
-
-            <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
-                <a href="{{ 'about' | relative_url }}">About</a>
-            </li>
-
-            <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
-                <a href="{{ 'projects' | relative_url }}">Projects</a>
-            </li>
-			
-            <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
-                <a href="{{ 'news' | relative_url }}">News</a>
-            </li>
-			
-            <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
-                <a href="{{ 'involved' | relative_url }}">Get Involved</a>
-            </li>
+		{% endfor %}	
         </ul>
     </nav>
 
