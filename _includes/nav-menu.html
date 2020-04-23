@@ -3,7 +3,6 @@
     
     <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
-		{% assign pages = site.pages | sort: 'order' %}
 		<ul class="nav-menu">
 			{% for node in pages %}
             <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
