@@ -307,8 +307,8 @@ a.partnerLink:hover {
 }
 
 .greyDivider {
-	color: #C8CFD7 !important;
-	background: #C8CFD7 !important;
+	color: #C8CFD7;
+	padding: 30px 0;
 }
 
 .scrollArea a {
@@ -329,6 +329,7 @@ h2.subTitle {
     color: #111;
     font-size: 44px;
     font-weight: 500;
+    padding: 20px 0 30px 0;	
 }
 
 p.subPara {
@@ -341,6 +342,7 @@ p.smallPara {
     color: #111;
     font-size: 14px;
     line-height: 32px;
+    padding-bottom: 40px;	
 }
 
 h1.pageTitle {
