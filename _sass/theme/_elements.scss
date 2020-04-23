@@ -306,6 +306,17 @@ a.partnerLink:hover {
     color: $black !important;
 }
 
+section.pageTitleSection {
+    background: url(img/bg-spiral.svg);
+    background-position: center;
+}
+
+a.scrollDown {
+    margin-left: 24px;
+    font-size: 24px;
+    font-weight: 500;	
+}
+
 .greyDivider {
 	color: #C8CFD7;
 	padding: 30px 0;
