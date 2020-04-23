@@ -3,9 +3,10 @@
     
     <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
-
+		{% assign pages = site.pages | sort: 'order' %}
 		<ul class="nav-menu">
-            <li>
+			{% for node in pages %}
+            <li{% if page.url contains node.url %} class="menu-active"{% endif %}>
                 <a href="{{ 'home' | relative_url }}">Home</a>
             </li>
 
@@ -24,6 +25,7 @@
             <li>
                 <a href="{{ 'involved' | relative_url }}">Get Involved</a>
             </li>
+			{% endfor %}
         </ul>
     </nav>
 
