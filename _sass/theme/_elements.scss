@@ -316,6 +316,35 @@ a.partnerLink:hover {
     border-top: 1px solid $aquablue-color;
 }
 
+img.blue-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2.subTitle {
+    color: #111;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+p.subPara {
+    color: #111;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+p.smallPara {
+    color: #111;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+h1.pageTitle {
+	color: #111;
+    font-size: 44px;
+    font-weight: 600;
+}
+
 .page-top-section {
     display: none !important;
 }
