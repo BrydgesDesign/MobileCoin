@@ -3,14 +3,29 @@
     
     <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
-	{% assign current = page.url | downcase | split: '/' %}		
+
 		<ul class="nav-menu">
-			<li><a href='/' {% if current[1] == 'home' %}class='.menu-active'{% endif %}>Home</a></li>
-			<li><a href='/MobileCoin/about' {% if current[1] == 'about' %}class='.menu-active'{% endif %}>About</a></li>
-			<li><a href='/MobileCoin/projects' {% if current[1] == 'projects' %}class='.menu-active'{% endif %}>Projects</a></li>
-			<li><a href='/MobileCoin/news' {% if current[1] == 'news' %}class='.menu-active'{% endif %}>News</a></li>
-			<li><a href='/MobileCoin/get-involved' {% if current[1] == 'get-involved' %}class='.menu-active'{% endif %}>Get Involved</a></li>			
+            <li class="menu-active">
+                <a href="{{ 'home' | relative_url }}">Home</a>
+            </li>
+
+            <li>
+                <a href="{{ 'about' | relative_url }}">About</a>
+            </li>
+
+            <li>
+                <a href="{{ 'projects' | relative_url }}">Projects</a>
+            </li>
+			
+            <li>
+                <a href="{{ 'news' | relative_url }}">News</a>
+            </li>
+			
+            <li>
+                <a href="{{ 'involved' | relative_url }}">Get Involved</a>
+            </li>
         </ul>
+		
     </nav>
 
 </div>
