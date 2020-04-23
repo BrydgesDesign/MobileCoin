@@ -3,13 +3,11 @@
     
     <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
-		
+	{% assign current = page.url | downcase | split: '/' %}		
 		<ul class="nav-menu">
-		{% for nav in site.data.navigation %}
-            <li{% if navigation.url == page.url %} class="menu-active"{% endif %}>
-                <a href="{{ navigation.url }}">{{ navigation.text }}</a>
-            </li>
-		{% endfor %}	
+			<li><a href='/index' {% if current[1] == 'home' %}class='menu-active'{% endif %}>Home</a></li>
+			<li><a href='/about' {% if current[1] == 'about' %}class='menu-active'{% endif %}>About</a></li>
+			<li><a href='/projects' {% if current[1] == 'projects' %}class='menu-active'{% endif %}>Projects</a></li>
         </ul>
     </nav>
 
