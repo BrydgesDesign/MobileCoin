@@ -1,5 +1,3 @@
-$('#scrollOne').ScrollTo();
-
 $(document).ready(function () {
     "use strict";
 
