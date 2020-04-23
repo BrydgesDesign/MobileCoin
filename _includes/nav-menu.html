@@ -3,9 +3,10 @@
     
     <div class="nav-wrap d-flex flex-row align-items-center">
     <nav id="nav-menu-container">
-        <ul class="nav-menu">
+        {% assign pages = site.pages | sort: 'order' %}
+		<ul class="nav-menu">
             <li class="activeMenuItem">
-                <a class="activeMenu" href="{{ 'home' | relative_url }}">Home</a>
+                <a href="{{ 'home' | relative_url }}">Home</a>
             </li>
 
             <li>
