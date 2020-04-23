@@ -9,9 +9,8 @@ address             : '1 Market St, San Francisco, California US'
 phone               : 0185612012035
 tagline             : 'Cryptocurrency designed for you. Private payments for everyone.' 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  MobileCoin is payments technology built for you. In a perfect world, money would be secure, fast, and almost invisible. 
+  This is the story of how a few people banded together to summon the future they imagine into the present so that we could live in a better tomorrow.
 baseurl             : "/MobileCoin/" # the subpath of your site, e.g. /blog
 url                 : "https://brydgesdesign.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 twitter_username    : mobilecoin
@@ -133,7 +132,7 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2020 All rights reserved to
+copyright_text: Copyright © 2020 All Right Reserved.
 company_url: 'https://www.mobilecoin.com/'
 
 

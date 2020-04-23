@@ -302,30 +302,22 @@ a.partnerLink:hover {
     color: $black !important;
 }
 
+.greyDivider {
+	color: #C8CFD7 !important;
+	background: #C8CFD7 !important;
+}
+
+.scrollArea a {
+	display: inline;
+	color: #275CDC;
+}
+
 .border-top {
     border-top: 1px solid $aquablue-color;
 }
 
 .page-top-section {
-    background: url(../img/footer/page-top-bg.jpg) center/cover;
-    padding-top: 235px;
-    padding-bottom: 40px;
-    .page-top-nav {
-        text-align: right;
-        @media(max-width: 767px) {
-            text-align:left;
-            margin-top: 30px;
-        }
-        a {
-            text-transform: uppercase !important;
-            color: $white;
-        }
-        .lnr {
-            color: $white;
-            padding: 0px 10px;
-            font-weight: 700;
-        }
-    }
+    display: none;
 }
 
 .social-heading {
