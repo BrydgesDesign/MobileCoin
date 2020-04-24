@@ -313,6 +313,10 @@ section.pageTitleSection {
     background-position: right;
 }
 
+footer.footer-area {
+    background: url(/MobileCoin/img/footer-bg.jpg) no-repeat;
+}
+
 .col-lg-8.digitalMoney {
     max-width: 700px;
     padding-left: 120px;
@@ -536,6 +540,10 @@ h1.pageTitle {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     font-size: 30px !important;
+}
+
+.footer-area .single-footer-widget .social-icons li {
+    margin-left: 24px;
 }
 
 p.footerWhiteText {
