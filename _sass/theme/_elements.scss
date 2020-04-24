@@ -322,7 +322,17 @@ a.partnerLink:hover {
 
 .container {
     max-width: 1674px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
+
+@media only screen and (max-width: 1320px) {
+	.paymentBox {
+		height: 450px;
+	}
+}
+
+
 
 .active2 {
     background: white;
