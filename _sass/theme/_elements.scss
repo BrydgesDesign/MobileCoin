@@ -422,7 +422,14 @@ input.inputDefault {
     width: 700px;
 }
 
+.newsletterForm {
+	margin-left: 40px;
+}
 
+a.buttonSubmit {
+    position: relative;
+    left: -60px;
+}
 
 .inputDefault {
     flex: 1;
