@@ -515,6 +515,30 @@ h1.pageTitle {
     display: none !important;
 }
 
+.col-lg-2.col-md-6.float-right {
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+p.footerWhiteText {
+    font-size: 18px;
+    line-height: 14px;
+    margin-top: 20px;
+}
+
+.single-footer-widget img {
+    padding-bottom: 16px;
+}
+
+.row.footerCopyright {
+    padding-top: 100px;
+}
+
+.single-footer-widget ul.menu-list {
+    padding-left: 200px;
+}
+
 a.scrollDownBtn img {
     width: 5%;
 }
