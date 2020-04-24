@@ -391,7 +391,11 @@ p.boxPara {
 }
 
 .divider-gap {
-	padding: 40px 0;
+	padding: 0;
+}
+
+section.section-gap.customPadding {
+    padding-top: 0px;
 }
 
 img.blue-divider {
