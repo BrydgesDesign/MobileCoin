@@ -521,6 +521,21 @@ h1.pageTitle {
     right: 10px;
 }
 
+.footer-area .single-footer-widget .social-icons li a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: 30px;
+}
+
 p.footerWhiteText {
     font-size: 18px;
     line-height: 14px;
