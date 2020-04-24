@@ -416,10 +416,12 @@ h4.boardTitle {
 }
 
 input.inputDefault {
+    background-image: url(/MobileCoin/img/blue-arrow-right.svg) no-repeat;
+    background-position: 7px 7px;
     height: 80px;
     border: 1px solid #C8CFD7;
     padding: 20px;
-    width: 500px;
+    width: 700px;
 }
 
 .newsletterSection .boxPara {
