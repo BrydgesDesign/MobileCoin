@@ -412,6 +412,29 @@ h4.boardTitle {
     padding-top: 5px;	
 }
 
+.ctaBox {
+    border: 1px solid #C8CFD7;
+    max-width: 1238px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+h2.ctaBottom {
+    padding: 20px 40px 40px 40px;
+    line-height: 64px;
+    font-size: 44px;
+}
+
+a.ctaLink {
+    color: #275CDC;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+	color: #275CDC;
+}
+
 .textCenter {
 	text-align: center;
 }
