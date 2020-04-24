@@ -347,6 +347,20 @@ a.scrollDown {
 	color: #275CDC;
 }
 
+.paymentBox {
+    border: 1px solid #C8CFD7;
+    height: 408px;
+    padding: 40px;
+}
+
+h4.boxTitle {
+    padding: 20px 0 10px 0;
+}
+
+p.boxPara {
+    font-size: 14px;
+}
+
 .border-top {
     border-top: 1px solid $aquablue-color;
 }
