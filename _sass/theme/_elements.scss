@@ -547,6 +547,10 @@ h1.pageTitle {
     margin-left: 24px;
 }
 
+.footer-area .single-footer-widget .menu-list li {
+    margin-bottom: 24px !important;
+}
+
 p.footerWhiteText {
     font-size: 18px;
     line-height: 14px;
@@ -558,11 +562,11 @@ p.footerWhiteText {
 }
 
 .row.footerCopyright {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 ul.menu-list li {
-    padding-bottom: 12px;
+    padding-bottom: 0px;
 }
 
 ul.social-icons {
@@ -570,7 +574,9 @@ ul.social-icons {
 }
 
 .single-footer-widget ul.menu-list {
-    padding-left: 160px;
+    margin-left: 160px;
+    padding-left: 20px;
+    border-left: 4px solid #275CDC;
 }
 
 a.scrollDownBtn img {
