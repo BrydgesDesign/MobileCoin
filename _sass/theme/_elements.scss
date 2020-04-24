@@ -525,17 +525,17 @@ h1.pageTitle {
 
 .footer-area .single-footer-widget .social-icons li a {
     display: inline-block;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
+    width: 45px !important;
+    height: 45px !important;
+    line-height: 45px !important;
     text-align: center;
-    background: none;
+    background: none !important;
     color: #fff;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    font-size: 30px;
+    font-size: 30px !important;
 }
 
 p.footerWhiteText {
@@ -554,6 +554,10 @@ p.footerWhiteText {
 
 ul.menu-list li {
     padding-bottom: 8px;
+}
+
+ul.social-icons {
+    float: right;
 }
 
 .single-footer-widget ul.menu-list {
