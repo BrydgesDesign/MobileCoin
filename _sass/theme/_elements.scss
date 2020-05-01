@@ -2,6 +2,18 @@
 # Elements 
 --------------------------------------------------------------*/
 
+::-webkit-input-placeholder { /* Edge */
+  color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
 body {
 	background: #000;
 }
@@ -614,7 +626,7 @@ a {
 
 input.inputDefault {
     height: 80px;
-    border: 1px solid #C8CFD7;
+    border: 1px solid #fff;
     padding: 20px;
     width: 700px;
 }
