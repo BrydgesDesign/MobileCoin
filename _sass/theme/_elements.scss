@@ -355,6 +355,7 @@ a.partnerLink:hover {
 section.pageTitleSection {
     background: url(/MobileCoin/img/bg-spiral.svg) no-repeat;
     background-position: right;
+    background-position-y: 80px;	
 }
 
 footer.footer-area {
@@ -540,7 +541,8 @@ img.blue-divider {
 h2.subTitle {
     color: #fff;
     font-size: 44px;
-    font-weight: 500;
+    line-height: 64px;	
+    font-weight: 400;
     padding: 20px 0 30px 0;	
 }
 
