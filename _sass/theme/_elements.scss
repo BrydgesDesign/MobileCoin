@@ -347,6 +347,28 @@ a.partnerLink:hover {
 
 
 
+form#myForm {
+    padding: 50px;
+    background: #fff;
+    margin-top: 50px;
+}
+
+form#myForm label {
+    color: #111;
+    font-size: 18px;
+}
+
+form#myForm input {
+    height: 70px;
+    border-radius: 0px;
+    border-color: #C8CFD7 !important;
+}
+
+form#myForm textarea {
+    border-radius: 0px;
+    border-color: #C8CFD7 !important;
+}
+
 h2.projectTitleh2 {
     font-size: 44px;
     padding-top: 20px;
