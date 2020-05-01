@@ -367,11 +367,19 @@ a.pdfButton {
     margin-left: 14px;
 }
 
+a.pdfButton {
+    padding-right: 8px;
+}
+
 a.githubBtn {
     background: #275CDC;
     color: #fff;
     padding: 22px 30px;
     margin-left: 20px;
+}
+
+a.githubBtn img {
+    padding-right: 8px;
 }
 
 h2.projectTitleh2 {
