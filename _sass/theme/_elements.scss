@@ -70,7 +70,7 @@ a.partnerLink {
 }
 
 .header-scrolled .nav-menu a {
-    color: #111;
+    color: #fff;
 }
 
 .col-lg-6.lowerRowRight {
@@ -393,7 +393,7 @@ a.scrollDown {
 }
 
 .paymentBox {
-    border: 1px solid #C8CFD7;
+    background: #fff;
     height: 380px;
     padding: 40px;
 	text-align: center;	
@@ -404,6 +404,7 @@ h2.subTitle.paddingBottom60 {
 }
 
 h4.boxTitle {
+	color: #fff;
     padding: 40px 0 10px 0;
 }
 
@@ -416,14 +417,13 @@ h4.boxTitle {
 }
 
 .partnersBox {
-    border-top: 1px solid #C8CFD7;
-    border-right: 1px solid #C8CFD7;
-    border-left: 1px solid #C8CFD7;
-    border-bottom: 5px solid #275CDC;
+	color: #fff;
+	background: #111;
     padding: 40px;
 }
 
 img.rightArrow {
+	color: #fff;
     float: right;
 }
 
@@ -530,27 +530,27 @@ img.blue-divider {
 }
 
 h2.subTitle {
-    color: #111;
+    color: #fff;
     font-size: 44px;
     font-weight: 500;
     padding: 20px 0 30px 0;	
 }
 
 p.subPara {
-    color: #111;
+    color: #fff;
     font-size: 24px;
     line-height: 48px;
 }
 
 p.smallPara {
-    color: #111;
+    color: #fff;
     font-size: 14px;
     line-height: 32px;
     padding-bottom: 40px;	
 }
 
 h1.pageTitle {
-	color: #111;
+	color: #fff;
     font-size: 44px;
     font-weight: 600;
     padding-top: 50px;	
