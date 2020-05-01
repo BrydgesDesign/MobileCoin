@@ -347,6 +347,23 @@ a.partnerLink:hover {
 
 
 
+a.contactPhone {
+	display: inline;
+    font-size: 32px;
+    color: #275CDC;
+}
+
+a.contactEmail {
+	display: inline;
+    font-size: 32px;
+    color: #275CDC;
+}
+
+h2.subTitle.contactText {
+    font-size: 34px;
+    line-height: 44px;
+}
+
 form#myForm {
     padding: 50px;
     background: #fff;
