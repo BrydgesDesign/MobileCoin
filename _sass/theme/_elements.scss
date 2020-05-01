@@ -10,6 +10,12 @@ body {
 	background: #000 !important;
 }
 
+#header.header-scrolled {
+    transition: all 0.5s;
+    background: #fff;
+    box-shadow: none !important; 
+}
+
 .col-lg-6.lowerRowRight {
     margin-bottom: -70px !important;
 }
