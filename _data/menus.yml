@@ -1,5 +1,5 @@
 - text: Home
-  url: /
+  url: /MobileCoin/
   
 - text: About
   url: /about/  
@@ -8,7 +8,7 @@
   url: /projects/
 
 - text: News
-  url: /news
+  url: /blog/index
 
 - text: Get Involved
   url: /get-involved/  
