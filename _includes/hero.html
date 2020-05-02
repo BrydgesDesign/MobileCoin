@@ -1,22 +1,46 @@
+{% if site.hero == 'product_background_image' %}
 
-    <!-- Start hero-section -->
-    <section class="hero-section relative">
-        <div class="container-fluid paddingHero">
-            <div class="row fullscreen align-items-center relative">
-                <div class="col-lg-12 content-wrap">
-                    <h1>
-                       Cryptocurrency designed for you.<br>Private payments for everyone.
-                    </h1>
-                </div>
-                <div class="col-lg-6 lowerRowLeft">
-					<a class="partnerLink" href="#"><object type="image/svg+xml" data="/MobileCoin/img/partnerFooter1.svg"></object></a>
-					<a class="partnerLink" href="#"><object type="image/svg+xml" data="/MobileCoin/img/partnerFooter2.svg"></object></a>			
-				</div>
-	            <div class="col-lg-6 lowerRowRight">
-					<a class="privacyLink" href="#">Privacy & Cookies</a>				
-					<p class="copyrightArea">© 2020 MobileCoin Inc. All Rights Reserved.</p>
-				</div>
-            </div>
-        </div>
-    </section>
-    <!-- End hero-section -->
+    {% include hero/product_background_image.html %}
+
+{% elsif site.hero == 'product_fixed_image' %}
+
+    {% include hero/product_fixed_image.html %}
+
+{% elsif site.hero == 'product' %}
+
+    {% include hero/product.html %}
+
+{% elsif site.hero == 'product_slider' %}
+
+    {% include hero/product_slider.html %}
+
+{% elsif site.hero == 'product_video' %}
+
+    {% include hero/product_video.html %}
+
+{% elsif site.hero == 'saas_video' %}
+
+    {% include hero/saas_video.html %}
+
+{% elsif site.hero == 'sass_background_image' %}
+
+    {% include hero/sass_background_image.html %}
+
+{% elsif site.hero == 'sass_fixed_image' %}
+
+    {% include hero/sass_fixed_image.html %}
+
+{% elsif site.hero == 'sass_slider' %}
+
+    {% include hero/sass_slider.html %}
+    
+{% elsif site.hero == "sass" %}
+
+    {% include hero/sass.html %}
+
+{% else %}
+
+    {% include hero/sass.html %}
+
+{% endif %}
+
