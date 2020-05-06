@@ -562,6 +562,11 @@ h4.boxTitle {
 	background: #222;
     padding: 40px;
     margin-bottom: 30px;	
+	transition: all .2s ease-in-out;		
+}
+
+.partnersBox:hover {
+    transform: scale(1.1);
 }
 
 img.rightArrow {
