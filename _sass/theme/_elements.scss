@@ -3,15 +3,15 @@
 --------------------------------------------------------------*/
 
 ::-webkit-input-placeholder { /* Edge */
-  color: #fff;
+  color: #93A6BB;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #fff;
+  color: #93A6BB;
 }
 
 ::placeholder {
-  color: #fff;
+  color: #93A6BB;
 }
 
 body {
@@ -647,10 +647,11 @@ a {
 
 input.inputDefault {
     height: 80px;
-    border: 1px solid #fff;
+    border: 0;
+	outline: 0;
     padding: 20px;
     width: 700px;
-    background: none;	
+    background: #fff;	
 }
 
 .newsletterForm {
