@@ -406,13 +406,13 @@ form#myForm input {
     height: 70px;
     border-radius: 0px;
     border-color: #C8CFD7 !important;
-	background: #fff !important;
+	background: none !important;
 }
 
 form#myForm textarea {
     border-radius: 0px;
     border-color: #C8CFD7 !important;
-	background: #fff !important;	
+	background: none !important;	
 }
 
 h2.projectTitleh2 {
@@ -672,7 +672,8 @@ input.inputDefault {
 	outline: 0;
     padding: 20px;
     width: 700px;
-    background: #fff;	
+    background: none;	
+    border: 1px solid #C8CFD7 !important;	
 }
 
 .newsletterForm {
