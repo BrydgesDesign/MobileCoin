@@ -173,7 +173,7 @@
             @include transition();
         }
         .overlay-bg {
-            @extend .d3-gradient-bg;
+            
             opacity: 0;
             @include transition();
         }
