@@ -208,6 +208,12 @@ a.partnerLink:hover {
 }
 
 
+#header.header-scrolled {
+    transition: all 0.5s;
+    background: #111 !important;
+    box-shadow: none !important;
+}
+
 .container {
     max-width: 1674px !important;
     padding-left: 50px !important;
