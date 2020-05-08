@@ -1,8 +1,9 @@
 ---
 title: We are excited to announce the release of the MobileCoin Foundation website
-image: 'img/blog/b1.jpg'
 layout: post
 ---
+
+![image](/img/blog/b1.jpg)
 
 ## 1st Heading Here
 
