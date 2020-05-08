@@ -3,7 +3,7 @@ title: We are excited to announce the release of the MobileCoin Foundation websi
 layout: post
 ---
 
-![image](/img/blog/b1.jpg)
+![image](/MobileCoin/img/blog/b1.jpg)
 
 ## 1st Heading Here
 
