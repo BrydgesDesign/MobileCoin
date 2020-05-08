@@ -13,7 +13,7 @@
 			<ul>
 			  {% for post in site.posts %}
 				<li class="newsBox">
-				  <h5 class="newsDateStamp">{{ post.date | date: '%B %d, %Y' }}</h5>
+				  <h5 class="newsDateStamp" style="color:#111;">{{ post.date | date: '%B %d, %Y' }}</h5>
 				  <a href="/MobileCoin/{{ post.url }}" class="newsTitle">{{ post.title }}
 					<span class="readMore">Read More <img class="newsArrow" src="{{ 'img/blue-arrow-right.svg' | relative_url }}" /></span>
 				  </a>
