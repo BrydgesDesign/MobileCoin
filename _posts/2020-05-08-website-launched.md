@@ -4,25 +4,17 @@ image: 'img/blog/b1.jpg'
 layout: post
 ---
 
-# Me Amphissos
+# Post Sub Title Here
 
-## Datque creverunt et quota iuvenum
+## Some Heading Here
 
-Lorem markdownum; non iurares sinu sed, ut illis, iamdudum nec fuisset mitissima
-nec flectitur; circumfert. Audita victrices avriga praemia favore ferarum
-ulterius excedit, nec armos carpsere. Et excutit caligine progenies pariente
-sibi quis, aethere, filia! Papilione *medium Hippotadae refert* ad culpae
-tristia, iuncta placidi o gratamque mitia, fuerat procorum placet nomine
-pennisque vocibus?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+esse cillum dolore eu fugiat nulla pariatur.
 
 
-## Sua nentes tum anum
+## SSome Heading Here
 
-Suo copia recisum triones, nunc fessos aliisque, lapides hortaturque Hectoreis
-illius. Protinus furit, voluntas arcitenens dictos, *et eundem*, utque suique
-stagni factique.
-
-Precor *credita hiemalibus cruorem* in digitis nubes femina iuva, hoc curam.
-Temeraria sperabam et parte. Viribus refugerat quibus; imbres undis dolore, est
-quamvis. Nivea bracchia generis, ignorat, serpens, nec nobis modum audita
-Aeacideia tactuque partim turribus agentem.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..
