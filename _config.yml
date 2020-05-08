@@ -17,8 +17,6 @@ twitter_username    : mobilecoin
 github_username     :  mobilecoin
 favicon: 'img/favicon.png'
 
-paginate: 12
-paginate_path: "/blog/page:num/"
 
 sass:
     sass_dir: _sass
