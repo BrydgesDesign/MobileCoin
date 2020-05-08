@@ -11,8 +11,8 @@ tagline             : 'Cryptocurrency designed for you. Private payments for eve
 description: >- # this means to ignore newlines until "baseurl:"
   MobileCoin is payments technology built for you. In a perfect world, money would be secure, fast, and almost invisible. 
   This is the story of how a few people banded together to summon the future they imagine into the present so that we could live in a better tomorrow.
-baseurl             : "/MobileCoin/" # the subpath of your site, e.g. /blog
-url                 : "https://brydgesdesign.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+baseurl             : "/MobileCoin/"
+url                 : "https://brydgesdesign.github.io"
 twitter_username    : mobilecoin
 github_username     :  mobilecoin
 favicon: 'img/favicon.png'
