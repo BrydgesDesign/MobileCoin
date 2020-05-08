@@ -4,8 +4,6 @@ image: 'img/blog/b1.jpg'
 layout: post
 ---
 
-# Post Sub Title Here
-
 ## Some Heading Here
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
