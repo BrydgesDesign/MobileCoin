@@ -8,24 +8,18 @@
 					<img class="blue-divider" src="{{ 'img/blueDivider.png' | relative_url }}" alt="" />
                 </div>
             </div>
-            <div class="row">
-                <a href="#">
-					<div class="col-lg-12 newsBox">
-						<h5 class="newsDateStamp">Friday, May 8th, 2020</h5>
-						<h4 class="newsTitle">We are excited to announce the release of the MobileCoin Foundation website</h4>
-						<a class="readMore" href="#">Read More</a>
-						<img class="newsArrow" src="{{ 'img/blue-arrow-right.svg' | relative_url }}" />					
-					</div>
-				</a>
-            </div>	
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="/MobileCoin/{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+			<ul>
+			  {% for post in site.posts %}
+				<li class="newsBox">
+				  <h5 class="newsDateStamp">{{ post.date }}</h5>
+				  <a href="/MobileCoin/{{ post.url }}" class="newsTitle">{{ post.title }}
+					<span class="readMore">Read More <img class="newsArrow" src="{{ 'img/blue-arrow-right.svg' | relative_url }}" /></span>
+				  </a>
+				</li>
+			  {% endfor %}
+			</ul>
 			
         </div>
     </section>
