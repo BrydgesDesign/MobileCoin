@@ -15,11 +15,6 @@ sibi quis, aethere, filia! Papilione *medium Hippotadae refert* ad culpae
 tristia, iuncta placidi o gratamque mitia, fuerat procorum placet nomine
 pennisque vocibus?
 
-Solum **iuvencos**, ibi propulit alumno: et me annis. Torreri [est dari
-hostem](http://requiram-verbisque.io/) gulae, natura illi penates pocula
-mortales; et arva! Crescit et praebet dubio, Martem, nam sorori illis. Concolor
-adimit, aptarique reformet, propioraque habebat fugit Polyphemon levemus,
-colloque si rediret revulsum praestantior grave ardua narratibus.
 
 ## Sua nentes tum anum
 
