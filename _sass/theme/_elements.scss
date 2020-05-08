@@ -488,9 +488,15 @@ img.newsArrow {
 }
 
 .blog-post .details-body h2 {
-    padding: 40px 0 0 0 !important;
+    padding: 40px 0 20px 0 !important;
     color: #fff;
     font-weight: 600;	
+}
+
+section.blog-post .container {
+	max-width: 1060px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
