@@ -6,7 +6,7 @@
 
 .version1{
 	.brands-section{
-		@extend .d1-gradient-bg;
+		
 		img{
 			@include transition();
 			opacity:.30;
@@ -40,7 +40,7 @@
 
 .version3, .version1-1{
 	.brands-section{
-		@extend .d1-gradient-bg;
+		
 		img{
 			@include transition();
 			opacity:.30;
@@ -97,7 +97,7 @@
 
 .version8{
 	.brands-section{
-		@extend .d1-gradient-bg;
+		
 		img{
 			@include transition();
 			opacity:.30;

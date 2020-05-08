@@ -202,7 +202,7 @@
                 color: $text-color;
                 font-size: 14px;
                 &:focus {
-                    @extend .d1-gradient-bg;
+                    
                     box-shadow: none;
                 }
             }
@@ -210,7 +210,7 @@
         .page-item.active,
         .page-item:hover {
             .page-link {
-                @extend .d1-gradient-bg;
+                
                 color: $white;
             }
         }
@@ -362,7 +362,7 @@
                         color: $title-color;
                     }
                     i {
-                        @extend .d1-gradient-bg;
+                        
                         color: $white;
                     }
                 }
@@ -394,7 +394,7 @@
                 font-weight: 600;
                 @include transition();
                 &:hover {
-                    @extend .d1-gradient-bg;
+                    
                     color: $white;
                 }
             }
