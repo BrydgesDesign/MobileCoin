@@ -225,7 +225,7 @@
             @include transition();
         }
         .overlay-bg {
-            @extend .d4-gradient-bg;
+            ;
             opacity: 0;
             @include transition();
         }
