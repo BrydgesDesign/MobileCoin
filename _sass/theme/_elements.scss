@@ -619,6 +619,17 @@ a.newsTitle span {
     color: #275CDC;
 }
 
+span.readMore {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+h5.newsDateStamp {
+    padding-bottom: 10px;
+}
+
 .border-top {
     border-top: 1px solid $aquablue-color;
 }
