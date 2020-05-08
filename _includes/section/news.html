@@ -17,7 +17,16 @@
 						<img class="newsArrow" src="{{ 'img/blue-arrow-right.svg' | relative_url }}" />					
 					</div>
 				</a>
-            </div>			
+            </div>	
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+			
         </div>
     </section>
     <!-- End News Page Title -->
