@@ -858,6 +858,15 @@ img.poweredIcon {
 }
 
 @media (max-width: 993px) {
+	.paymentBox {
+		height: auto;
+		margin-bottom: 40px;
+	}
+	.col-lg-8.digitalMoney {
+		max-width: 100%;
+		width: 100%;
+		padding-left: 20px;
+	}
 	#header2.header-scrolled {
 		transition: all 0.5s;
 		background: #111 !important;
