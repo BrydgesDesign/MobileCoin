@@ -824,6 +824,30 @@ img.poweredIcon {
 		margin-left: 0;
 		margin-right: 16px;
 	}
+	h2.projectTitleh2 {
+		font-size: 30px;
+	}	
+	a.githubBtn {
+		padding: 18px 30px;
+	}
+	a.pdfButton {
+		padding: 18px 30px;
+	}	
+}
+
+@media (max-width: 1209px) {	
+	p.projectBlurb {
+		font-size: 13px;
+		line-height: 24px;
+		padding-bottom: 8px !important;		
+	}
+}
+
+@media (max-width: 1140px) {	
+	h2.projectTitleh2 {
+		font-size: 24px;
+		margin-bottom: -5px;
+	}	
 }
 
 
