@@ -825,6 +825,11 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	img.submitArrow {
+		width: 15%;
+		padding-left: 10px;
+		margin-top: -2px;
+	}
 	.hero-section .fullscreen {
 		height: 100% !important;
 		min-height: 736px !important;
