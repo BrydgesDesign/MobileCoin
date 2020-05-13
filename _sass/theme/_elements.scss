@@ -825,10 +825,17 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	span.readMore {
+		margin-top: 20px;
+	}
+	.newsletterSection h2 {
+		font-size: 32px;
+	}	
 	.ctaBox {
 		padding: 40px;
 	}
 	h2.ctaBottom {
+		margin-bottom: 20px;	
 		padding: 0;
 		line-height: 44px;
 		font-size: 28px;
