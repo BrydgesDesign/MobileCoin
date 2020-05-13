@@ -754,13 +754,16 @@ a.scrollDownBtn img {
 .pages #mobile-nav-toggle {
     z-index: 999999 !important;
     font-size: 34px !important;
-	right: 45px !important;	
+	right: 15px !important;	
 }
 
 #mobile-nav-toggle i {
     color: #fff !important;
 }
 
+.parent-active button#mobile-nav-toggle {
+    font-size: 34px !important;
+}
 
 
 @media (max-width: 768px) {
