@@ -776,6 +776,27 @@ img.poweredIcon {
 }
 
 
+@media (max-width: 1460px) {
+	.col-lg-9.bgWhite {
+		margin-left: 0;
+	}
+	h2.projectTitleh2 {
+		padding-top: 32px;
+	}
+	p.projectBlurb {
+		padding-bottom: 15px !important;
+	}
+}
+
+@media (max-width: 1360px) {
+	h2.projectTitleh2 {
+		font-size: 40px;
+		padding-top: 22px;
+		color: #111;
+		padding-left: 20px;
+	}
+}
+
 @media (max-width: 1320px) {
 	img.rightArrow {
 		color: #fff;
