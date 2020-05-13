@@ -826,6 +826,9 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	h2.subTitle.projects {
+		font-size: 24px !important;
+	}
 	img.submitArrow {
 		width: 15%;
 		padding-left: 10px;
