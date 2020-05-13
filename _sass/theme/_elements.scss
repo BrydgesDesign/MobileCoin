@@ -814,11 +814,17 @@ a.scrollDownBtn img {
 	}
 	input.inputDefault {
 		width: auto !important;
+	}
+	.newsletterSection .boxPara {
+		width: auto !important;
 	}	
 }
 
 
 @media (max-width: 450px) {
+	.newsletterSection .boxPara {
+		width: auto !important;
+	}
 	input.inputDefault {
 		width: auto !important;
 	}
