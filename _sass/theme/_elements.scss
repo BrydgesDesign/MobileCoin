@@ -816,6 +816,10 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	.col-lg-9.bgWhite {
+		background: #fff;
+		margin-left: 0;
+	}
 	.container {
 		padding-left: 24px !important;
 		padding-right: 24px !important;
