@@ -759,3 +759,25 @@ a.scrollDownBtn img {
 #mobile-nav-toggle i {
     color: #fff !important;
 }
+
+
+
+@media (max-width: 768px) {
+	#header #logo img {
+		max-height: 56px;
+	}
+	#header2 #logo .logo-1 {
+		width: auto !important;
+		height: 56px !important;
+	}	
+	.activeLink {
+		border-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	}	
+}
+
+
+
+
+
+
