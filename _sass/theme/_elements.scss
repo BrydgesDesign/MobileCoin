@@ -1009,6 +1009,17 @@ a.scrollDownBtn img {
 	}	
 }
 
+@media (max-width: 366px) {
+	img.memberOrgLogo {
+		max-width: 180px;
+	}	
+	img.rightArrow {
+		color: #fff;
+		float: right;
+		padding-top: 18px;
+		width: 12%;
+	}
+}
 
 
 
