@@ -825,6 +825,13 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	.hero-section .fullscreen {
+		height: 100% !important;
+		min-height: 736px !important;
+	}
+	.version1-1 .hero-section .content-wrap {
+		margin-bottom: 10px;
+	}
 	h2.subTitle {
 		font-size: 36px;
 		line-height: 50px;
