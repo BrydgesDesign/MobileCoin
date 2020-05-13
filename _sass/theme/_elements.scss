@@ -857,8 +857,13 @@ img.poweredIcon {
 	}
 }
 
-
-
+@media (max-width: 993px) {
+	#header2.header-scrolled {
+		transition: all 0.5s;
+		background: #111 !important;
+		box-shadow: none !important;
+	}
+}
 
 @media (max-width: 768px) {
 	h4.committeeMember {
@@ -953,8 +958,8 @@ img.poweredIcon {
 	}	
 	#header2.header-scrolled {
 		transition: all 0.5s;
-		background: #111;
-		box-shadow: none;
+		background: #111 !important;
+		box-shadow: none !important;
 	}	
 }
 
