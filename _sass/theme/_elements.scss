@@ -773,6 +773,14 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 768px) {
+	.col-lg-9.bgWhite {
+		background: #fff;
+		margin-left: 20px;
+		padding-bottom: 50px;
+	}
+	.row.projectsRow .col-lg-3 img {
+		display: none;
+	}
 	h2.committeeTitle {
 		margin-top: 40px;
 	}
