@@ -757,6 +757,12 @@ a.scrollDownBtn img {
 	right: 15px !important;	
 }
 
+.version-blog #mobile-nav-toggle {
+    z-index: 999999 !important;
+    font-size: 34px !important;
+	right: 15px !important;	
+}
+
 #mobile-nav-toggle i {
     color: #fff !important;
 }
@@ -773,7 +779,8 @@ a.scrollDownBtn img {
 		color: #275CDC;
 	}
 	#header #logo img {
-		max-height: 56px;
+		width: auto !important;	
+		height: 56px !important;
 	}
 	#header2 #logo .logo-1 {
 		width: auto !important;
@@ -835,6 +842,13 @@ a.scrollDownBtn img {
 		line-height: 26px;
 		margin-top: 20px;
 	}
+	section.blog-post .container {
+		padding-left: 24px !important;
+		padding-right: 24px !important;
+	}
+	.blog-post .head {
+		font-size: 40px !important;
+	}	
 }
 
 
