@@ -777,6 +777,14 @@ img.poweredIcon {
 
 
 @media (max-width: 1320px) {
+	img.rightArrow {
+		color: #fff;
+		float: right;
+		padding-top: 16px;
+	}
+	img.memberOrgLogo {
+		width: 250px;
+	}
 	.single-footer-widget ul.menu-list {
 		margin-left: 60px;
 	}
@@ -789,10 +797,7 @@ img.poweredIcon {
 }
 
 
-@media (max-width: 1105px) {
-	img.memberOrgLogo {
-		width: 250px;
-	}	
+@media (max-width: 1105px) {	
 	.paymentBox {
 		height: 480px;
 	}
