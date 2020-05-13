@@ -754,6 +754,7 @@ a.scrollDownBtn img {
 #mobile-nav-toggle {
     z-index: 999999 !important;
     font-size: 34px !important;
+	right: 45px !important;	
 }
 
 #mobile-nav-toggle i {
@@ -763,6 +764,7 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 768px) {
+
 	#header #logo img {
 		max-height: 56px;
 	}
