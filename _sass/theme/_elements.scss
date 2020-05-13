@@ -811,11 +811,17 @@ a.scrollDownBtn img {
 	}
 	a.privacyLink {
 		margin-top: 50px;
+	}
+	input.inputDefault {
+		width: auto !important;
 	}	
 }
 
 
 @media (max-width: 450px) {
+	input.inputDefault {
+		width: auto !important;
+	}
 	.col-lg-9.bgWhite {
 		background: #fff;
 		margin-left: 0;
