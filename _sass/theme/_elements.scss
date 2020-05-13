@@ -957,6 +957,13 @@ img.poweredIcon {
 
 
 @media (max-width: 450px) {
+	h2.subTitle.paddingBottom60.committees {
+		padding-bottom: 0px;
+		margin-bottom: -40px;
+	}
+	h4.committeeMember {
+		font-size: 16px !important;
+	}
 	a.blueButton img {
 		margin-left: 6px;
 		width: 10%;
