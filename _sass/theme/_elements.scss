@@ -820,6 +820,13 @@ img.poweredIcon {
 	}	
 }
 
+@media (max-width: 1280px) {	
+	.footer-area .single-footer-widget .social-icons li {
+		margin-left: 0;
+		margin-right: 16px;
+	}
+}
+
 
 @media (max-width: 1105px) {	
 	.paymentBox {
