@@ -776,9 +776,26 @@ img.poweredIcon {
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1320px) {
+	.single-footer-widget ul.menu-list {
+		margin-left: 60px;
+	}
+	.paymentBox {
+		height: 440px;
+	}
+	p.footerWhiteText {
+		line-height: 28px;
+	}	
+}
 
 
+@media (max-width: 1105px) {
+	img.memberOrgLogo {
+		width: 250px;
+	}	
+	.paymentBox {
+		height: 480px;
+	}
 }
 
 
