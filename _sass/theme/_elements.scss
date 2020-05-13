@@ -813,20 +813,46 @@ a.scrollDownBtn img {
 		margin-top: 50px;
 	}
 	input.inputDefault {
-		width: auto !important;
+		width: 100% !important;
 	}
 	.newsletterSection .boxPara {
 		width: auto !important;
+	}
+	.newsletterForm {
+		margin-left: 0;
 	}	
 }
 
 
 @media (max-width: 450px) {
+	a.githubBtn {
+		display: block;
+		width: 100%;
+		margin-left: 0px !important;
+		text-align: center;
+	}
+	a.pdfButton {
+		display: block;
+		width: 100%;
+		margin-left: 0px !important;
+		text-align: center;
+	}	
+	.row.projectsRow .col-lg-3 img {
+		display: none !important;
+	}
+	a.buttonSubmit {
+		position: relative;
+		left: 130px;
+		top: -55px;
+	}
+	.newsletterForm {
+		margin-left: 0;
+	}	
 	.newsletterSection .boxPara {
 		width: auto !important;
 	}
 	input.inputDefault {
-		width: auto !important;
+		width: 100% !important;
 	}
 	.col-lg-9.bgWhite {
 		background: #fff;
