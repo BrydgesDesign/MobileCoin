@@ -825,6 +825,39 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	h2.subTitle {
+		font-size: 36px;
+		line-height: 50px;
+	}
+	a.scrollDownBtn img {
+		width: 16%;
+	}
+	.col-lg-8.digitalMoney {
+		width: 100% !important;
+		padding-left: 24px;
+	}
+	.paymentBox {
+		margin-bottom: 40px;
+	}
+	img.rightArrow {
+		color: #fff;
+		float: right;
+		padding-top: 10px;
+		width: 16%;
+	}
+	img.poweredIcon {
+		width: 100%;
+		margin-bottom: 34px;
+	}
+	h2.committeeTitle {
+		padding-top: 40px;
+	}
+	h2.subTitle {
+		font-size: 40px;
+	}
+	img.memberOrgLogo {
+		max-width: 200px;
+	}
 	span.readMore {
 		margin-top: 20px;
 	}
