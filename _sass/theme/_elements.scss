@@ -764,7 +764,11 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 768px) {
-
+	a.contactEmail {
+		display: inline;
+		font-size: 18px;
+		color: #275CDC;
+	}
 	#header #logo img {
 		max-height: 56px;
 	}
@@ -775,10 +779,59 @@ a.scrollDownBtn img {
 	.activeLink {
 		border-bottom: 0 !important;
 		padding-bottom: 0 !important;
+	}
+	.single-footer-widget ul.menu-list {
+		margin-left: 0px;
+		padding-left: 20px;
+		border-left: 4px solid #275CDC;
+	}
+	.footer-area .single-footer-widget .social-icons li {
+		margin-right: 15px;
+	}
+	ul.social-icons {
+		float: left;
+	}
+	a.privacyLink {
+		margin-top: 50px;
 	}	
 }
 
 
+@media (max-width: 450px) {
+	.container {
+		padding-left: 24px !important;
+		padding-right: 24px !important;
+	}
+	form#myForm {
+		padding: 30px;
+		background: #222;
+		margin-top: 50px;
+	}
+	h2.footerBlueText {
+		text-align: left;
+		padding-left: 36px;
+	}
+	.footer-area .single-footer-widget .social-icons li a {
+		display: inline-block;
+		width: 35px !important;
+		height: 35px !important;
+		line-height: 35px !important;
+		text-align: center;
+		background: none !important;
+		color: #fff;
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+		font-size: 26px !important;
+		margin-top: 30px;
+	}
+	p.footerWhiteText {
+		font-size: 18px;
+		line-height: 26px;
+		margin-top: 20px;
+	}
+}
 
 
 
