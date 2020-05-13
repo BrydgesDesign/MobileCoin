@@ -858,6 +858,17 @@ img.poweredIcon {
 }
 
 @media (max-width: 993px) {
+	h2.subTitle.paddingBottom60.committees {
+		margin-bottom: -20px;
+		padding-bottom: 0px;
+	}
+	h2.committeeTitle {
+		margin-top: 50px;
+	}
+	img.poweredIcon {
+		width: 50% !important;
+		margin-bottom: 40px;
+	}
 	.paymentBox {
 		height: auto;
 		margin-bottom: 40px;
