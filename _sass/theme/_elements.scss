@@ -863,6 +863,22 @@ img.poweredIcon {
 		background: #111 !important;
 		box-shadow: none !important;
 	}
+	#header2.header-scrolled {
+		transition: all 0.5s;
+		background: #111 !important;
+		box-shadow: none !important;
+	}	
+	h2.projectTitleh2 {
+		font-size: 44px;
+		padding-top: 42px;
+		color: #111;
+		padding-left: 20px;
+	}	
+	p.projectBlurb {
+		font-size: 14px;
+		line-height: 30px;
+		padding-bottom: 18px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -905,11 +921,11 @@ img.poweredIcon {
 	}
 	h2.subTitle {
 		color: #fff;
-		font-size: 40px;
-		line-height: 44px;
+		font-size: 30px;
+		line-height: 50px;
 		font-weight: 400;
 		padding: 20px 0 30px 0;
-	}	
+	}
 	a.contactEmail {
 		display: inline;
 		font-size: 18px;
@@ -956,11 +972,7 @@ img.poweredIcon {
 		max-width: 100%;
 		padding-left: 20px;
 	}	
-	#header2.header-scrolled {
-		transition: all 0.5s;
-		background: #111 !important;
-		box-shadow: none !important;
-	}	
+	
 }
 
 
