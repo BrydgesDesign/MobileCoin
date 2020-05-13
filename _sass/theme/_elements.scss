@@ -825,6 +825,15 @@ a.scrollDownBtn img {
 
 
 @media (max-width: 450px) {
+	.ctaBox {
+		padding: 40px;
+	}
+	h2.ctaBottom {
+		padding: 0;
+		line-height: 44px;
+		font-size: 28px;
+		color: #fff;
+	}
 	a.githubBtn {
 		display: block;
 		width: 100%;
