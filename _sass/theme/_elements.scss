@@ -43,6 +43,9 @@ a.partnerLink {
 }
 
 @media(max-width: 992px) {
+	a.partnerLink {
+		top: 160px;
+	}
 	a.privacyLink {
 		color: #fff;
 		font-weight: 400;
