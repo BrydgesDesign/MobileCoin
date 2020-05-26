@@ -44,7 +44,7 @@ a.partnerLink {
 
 @media(max-width: 992px) {
 	.parent-active a.partnerLink {
-		top: 160px;
+		top: 160px !important;
 	}
 	a.privacyLink {
 		color: #fff;
@@ -79,6 +79,9 @@ a.partnerLink {
 }
 
 @media(max-width: 480px) {
+	.parent-active a.partnerLink {
+		top: 60px !important;
+	}
 	.parent-active .hero-section {
 		padding: 0 !important;
 	}
