@@ -101,6 +101,11 @@ h5.memberTitle {
     color: #fff;
 }
 
+a.blueButton.backToMembers {
+    top: 60px;
+    position: relative;
+}
+
 h5.memberQuote {
     color: #fff;
     padding: 30px 0;
@@ -133,6 +138,7 @@ a.membersLink {
 
 section.pageTitleSection.section-gap.membersArea {
     padding-top: 120px;
+    padding-bottom: 200px;	
 }
 
 .header-scrolled .nav-menu a {
