@@ -1062,6 +1062,12 @@ img.poweredIcon {
 
 
 @media (max-width: 450px) {
+	.partnersBox .rightArrow {
+		display: none !important;
+	}
+	img.poweredIcon {
+		width: 100% !important;
+	}
 	h2.subTitle.paddingBottom60.committees {
 		padding-bottom: 0px;
 		margin-bottom: -40px;
@@ -1126,7 +1132,7 @@ img.poweredIcon {
 		font-size: 40px;
 	}
 	img.memberOrgLogo {
-		max-width: 200px;
+		max-width: 300px;
 	}
 	span.readMore {
 		margin-top: 20px;
