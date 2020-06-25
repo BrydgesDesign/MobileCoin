@@ -967,6 +967,13 @@ img.poweredIcon {
 }
 
 @media (max-width: 768px) {
+	a.membersLink {
+		margin-right: 24px;
+	}
+	img.memberIconLink {
+		max-width: 100%;
+		margin-right: 64px;
+	}
 	h4.committeeMember {
 		font-size: 16px !important;
 	}
