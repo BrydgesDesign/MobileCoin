@@ -592,7 +592,7 @@ span.readMore {
 
 .newsDateStamp {
     padding-bottom: 10px;
-	color: #111 !important;
+	color: #9ba4aa !important;
 }
 
 .border-top {
@@ -1038,7 +1038,6 @@ img.poweredIcon {
 	}	
 	.activeLink {
 		border-bottom: 0 !important;
-		padding-bottom: 0 !important;
 	}
 	.single-footer-widget ul.menu-list {
 		margin-left: 0px;
@@ -1081,6 +1080,9 @@ img.poweredIcon {
 
 
 @media (max-width: 450px) {
+	.activeLink {
+		border-bottom: 0 !important;
+	}
 	.partnersBox .rightArrow {
 		display: none !important;
 	}
@@ -1251,6 +1253,9 @@ img.poweredIcon {
 }
 
 @media (max-width: 366px) {
+	.activeLink {
+		border-bottom: 0 !important;
+	}
 	h4.committeeMember {
 		font-size: 16px !important;
 	}
