@@ -49,6 +49,9 @@ a.partnerLink {
 
 
 @media(max-width: 992px) {
+	.col-lg-12.lowerRowRight {
+		margin-top: 190px;
+	}
 	.parent-active a.partnerLink {
 		top: 160px !important;
 	}
