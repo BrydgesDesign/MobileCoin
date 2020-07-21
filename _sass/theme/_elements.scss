@@ -985,6 +985,14 @@ img.poweredIcon {
 }
 
 @media (max-width: 768px) {
+	.col-lg-12.logos {
+		position: relative;
+		bottom: 260px;
+	}
+	.col-lg-12.lowerRowRight {
+		margin-top: 90px;
+		bottom: -100px;
+	}	
 	a.membersLink {
 		margin-right: 24px;
 	}
