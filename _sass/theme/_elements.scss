@@ -50,6 +50,10 @@ a.partnerLink {
     top: 60px;
 }
 
+p.copyrightArea {
+    float: left;
+}
+
 @media(max-width: 992px) {
 	.parent-active a.partnerLink {
 		top: 160px !important;
