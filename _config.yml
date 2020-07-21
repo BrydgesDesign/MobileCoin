@@ -4,8 +4,8 @@
 ####################################
 name                : 'MobileCoin Foundation'
 title               : 'MobileCoin Foundation - Private payments for everyone.'
-email               : info@mobilecoin.com
-address             : '1 Market St, San Francisco, California US'
+email               : hello@mobilecoin.foundation
+address             : ''
 phone               : 0185612012035
 tagline             : 'Private payments for everyone.' 
 description: >- # this means to ignore newlines until "baseurl:"
