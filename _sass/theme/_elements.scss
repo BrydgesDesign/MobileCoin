@@ -1097,11 +1097,19 @@ img.poweredIcon {
 	}
 	a.membersLink {
 		width: 10%;
+	}
+	.col-lg-12.logos {
+		position: static;
+		bottom: 0;
 	}	
 }
 
 
 @media (max-width: 450px) {
+	.col-lg-12.logos {
+		position: static;
+		bottom: 0;
+	}
 	.footer-area {
 		padding: 100px 0px 20px 0px;
 	}
