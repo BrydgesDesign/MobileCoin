@@ -1123,7 +1123,11 @@ img.poweredIcon {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
+	a.genric-btn.mt-30 {
+		padding: 0;
+	}
+}	
 	.col-lg-12.logos {
 		position: static;
 		bottom: 0;
