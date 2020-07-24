@@ -1003,14 +1003,19 @@ img.poweredIcon {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
+	.parent-active .col-lg-12.content-wrap {
+		margin-top: 0;
+		position: relative;
+		top: 300px;
+	}
 	.col-lg-12.logos {
 		position: relative;
-		bottom: 260px;
+		bottom: 0px;
 	}
 	.col-lg-12.lowerRowRight {
 		margin-top: 90px;
-		bottom: -100px;
+		bottom: 0px;
 	}	
 	a.membersLink {
 		margin-right: 24px;
