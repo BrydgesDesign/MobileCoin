@@ -97,7 +97,7 @@ a.partnerLink {
 
 @media(max-width: 769px) {
 	.parent-active a.partnerLink {
-		top: 260px !important;
+		top: 0px !important;
 	}
 	.parent-active .content-wrap h1 {
 		margin-bottom: 20px;
@@ -107,7 +107,7 @@ a.partnerLink {
 
 @media(max-width: 480px) {
 	.parent-active a.partnerLink {
-		top: 60px !important;
+		top: 0px !important;
 	}
 	.parent-active .hero-section {
 		padding: 0 !important;
