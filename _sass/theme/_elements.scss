@@ -97,7 +97,9 @@ a.partnerLink {
 
 @media(max-width: 769px) {
 	.parent-active a.partnerLink {
-		top: 0px !important;
+		top: 80px !important;
+		display: block;
+		padding: 20px 0;
 	}
 	.parent-active .content-wrap h1 {
 		margin-bottom: 20px;
@@ -107,7 +109,7 @@ a.partnerLink {
 
 @media(max-width: 480px) {
 	.parent-active a.partnerLink {
-		top: 0px !important;
+		
 	}
 	.parent-active .hero-section {
 		padding: 0 !important;
@@ -1008,6 +1010,7 @@ img.poweredIcon {
 		margin-top: 0;
 		position: relative;
 		top: 300px;
+		padding-bottom: 100px;
 	}
 	.col-lg-12.logos {
 		position: relative;
