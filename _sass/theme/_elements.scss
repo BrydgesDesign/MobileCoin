@@ -120,7 +120,7 @@ a.partnerLink {
 	}	
 	a.partnerLink {
 		margin-right: 50px;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 		display: block;
 	}	
 }
@@ -1142,12 +1142,17 @@ img.poweredIcon {
 }
 
 @media (max-width: 450px) {
+	.version1-1 .hero-section .content-wrap {
+		margin-bottom: 80px !important;
+		top: 240px !important;
+	}
 	img.newsArrow {
 		width: 12%;
 	}
 	.col-lg-12.logos {
 		position: static;
 		bottom: 0;
+		margin-bottom: 100px;
 	}
 	.footer-area {
 		padding: 100px 0px 20px 0px;
@@ -1190,9 +1195,6 @@ img.poweredIcon {
 	.hero-section .fullscreen {
 		height: 100% !important;
 		min-height: 736px !important;
-	}
-	.version1-1 .hero-section .content-wrap {
-		margin-bottom: 10px;
 	}
 	h2.subTitle {
 		font-size: 36px;
